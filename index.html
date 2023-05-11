@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,400&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Website Header</title>
+    <style>
+      * {
+        /* margin: 0; */
+        padding: 0;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+
+      header {
+        height: 70px;
+        background-color: teal;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 40px;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+
+      nav {
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       color: whitesmoke;
+     }
+
+     nav ul {
+      list-style: none;
+      justify-content: space-evenly;
+      font-size: 20px;
+      font-weight: 500;
+     }
+
+     nav ul li {
+      display: inline-block;
+      padding: 10px 20px;
+     }
+
+      ul li {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      li:hover,
+      li:focus {
+        color: yellowgreen;
+      }
+
+    </style>
+</head>
+<body>
+    <header>
+      <img src="./images/logo.png" alt="Picture of a logo">
+      <nav>
+        <ul>
+          <a><li>Home</li></a>
+          <a><li>About</li></a>
+          <a><li>Services</li></a>
+          <a><li>Contact</li></a>
+        </ul>
+      </nav>
+    </header>
+</body>
+</html>
